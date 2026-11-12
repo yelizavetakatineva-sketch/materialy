@@ -1,0 +1,8 @@
+soucet = 0 
+for i in range(0, 5):
+    print("i:", i)
+    print("soucet na zacatku cyklu:", soucet)
+    soucet = soucet + i
+    print("soucet na konci cyklu:", soucet)
+    
+print("soucet po cyklu:", soucet)

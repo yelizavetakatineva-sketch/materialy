@@ -1,0 +1,29 @@
+#jmeno = input("jmeno")
+#print("tve jmeno je", len(jmeno), "dlouhé")
+
+#print(len("Ahoj pepo"))
+
+#print(abs(-7))
+
+#print(round(3.14159, 2))
+
+#print(max(2, 3, -5) < 4)
+
+#print(len(range(5))) range vraci pouze čisla, interval čisel
+
+#for i in range(5):
+    #print(i)
+#print (min(range(-10, 2)))
+
+#for i in range(4): #tady range znamena kolik krat pobezi cyclus
+    #print("Ahoj", str(i))
+
+print("zacatek")
+for i in range(98, 100): 
+    print("cislo")
+    if (i % 2 == 0): 
+        print("sude", i)
+    else:
+        print("liche", i)
+    print("konec cyklu")
+print("hotovo")

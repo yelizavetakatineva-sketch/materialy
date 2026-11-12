@@ -1,0 +1,20 @@
+print (5 != 5)
+print (5 != 3)
+
+print (5 > 5)
+print (5 < 5)
+
+print ("Anna" == "Anna")
+print ("Anna" == "ANNA")
+print ("Anna" != "ANNA")
+
+pravda = 5 >= 3
+print("Promenna pravda je", pravda)
+
+teplota = 25
+je zima = teplota < 5 
+print ("Zima", je zima)
+
+vek = 20 
+print ("Neni mi", vek)
+print(vek = 20)

@@ -1,0 +1,22 @@
+#if podminka:
+    #prikaz kdyz podminka plati
+
+
+
+#elif = podminka2
+
+znamka = 2
+if znamka == 1:
+    print("Vyborne")
+elif znamka == 2:
+    print("Chvalitebne")
+elif znamka == 3:
+    print("Dobre")
+elif znamka == 4:
+    print("Dostatecne")
+elif znamka == 5:
+    print("Nedostatecne")
+else:
+    print("To neni platna znamka.")
+
+      

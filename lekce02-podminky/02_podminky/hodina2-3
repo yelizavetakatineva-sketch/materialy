@@ -1,0 +1,13 @@
+venku_prsi = True 
+mam_destnik = False
+
+if venku_prsi: 
+    if mam_destnik:
+        print("Co mam delat, aspon ze nezmoknu. ")
+    else:
+        print("To je teda smůla, zmoknu. ")
+else:
+    if mam_destnik:
+        print(" Tahnu destnik zbytecne. ")
+    else:
+        print ("Mam stesti, neprsi. ")

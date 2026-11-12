@@ -1,0 +1,10 @@
+for i in range(5):
+    print(i)
+    for j in range(4):
+        print("kolo:", i, "pokus:", j)
+    print("konec", i)
+print("konec vsech cyklu")
+
+jmeno = input("Jmeno?")
+for pismeno in jmeno:
+    print(pismeno)

@@ -1,0 +1,16 @@
+vek = 5
+print(vek >= 18 and vek < 65)
+
+den = "sobota"
+if den == "sobota" or den == "neděle":
+    print("Je vikend.")
+
+a = int(input("Zadej stranu a:"))
+b = int(input("Zadej stranu b:"))
+
+if a >= 0 and b >= 0:
+    print("Obsah obdelnika", a*b)
+else:
+    print("To není obdelnik. ")
+
+print("not True je", not True)

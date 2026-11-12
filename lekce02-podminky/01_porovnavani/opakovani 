@@ -1,0 +1,3 @@
+cislo = int(input("Zadej cislo:"))
+print(cislo + 1)
+
