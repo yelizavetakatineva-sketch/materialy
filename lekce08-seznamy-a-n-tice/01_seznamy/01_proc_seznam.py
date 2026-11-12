@@ -20,7 +20,28 @@ hoste = ["Anna", "Petra", "Jana"]
 print(hoste)            # ['Anna', 'Petra', 'Jana']
 print(len(hoste))       # 3 – počet položek v seznamu
 
+print ("-"* 30)
+print ("Pomoci for")
 
+for host in hoste:
+    print("Zvu Vas na Vanocni vecirek", host)
+
+print ("Prvni byla pozvana" , hoste[0])
+
+print ("-"* 30)
+print ("Pomoci range")
+
+for i in range(pocethostu):
+    print("Zvu Vas na Vanocni vecirek", hoste[i])
+
+blacklist = ["Hegerova", "vlk"]
+
+prichozi = input("Jak se jmenujes?")
+
+for host in hoste:
+    if prichozi == host:
+        print("Pod dal:", prichozi)  
+        
 # Hodnoty stojí v pořadí, v jakém jsi je napsala, a můžou se opakovat.
 # Vejdou se do něj i čísla:
 hlasy = [1, 2, 1, 1]
