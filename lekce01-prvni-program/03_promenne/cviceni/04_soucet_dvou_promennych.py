@@ -3,4 +3,6 @@
 
 # Vytvoř dvě proměnné s čísly a vypiš jejich součet.
 
-
+a = 2
+b = 8
+print(a + b)

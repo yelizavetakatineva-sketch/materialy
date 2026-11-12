@@ -8,5 +8,6 @@
 znamka1 = 1
 znamka2 = 3
 znamka3 = 2
-
-
+prumer = (znamka1 + znamka2 + znamka3)/3
+print (prumer)
+print (prumer <= 2)

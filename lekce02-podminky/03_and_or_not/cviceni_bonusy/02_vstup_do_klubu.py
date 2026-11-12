@@ -6,9 +6,11 @@
 #     Kdo má zákaz vstupu, dovnitř nesmí nikdy – ani člen, ani s pozvánkou.
 #     Zamysli se, kam patří závorky, aby podmínka fungovala správně.
 #     Vypiš "Vítej v klubu." / "Dnes se nedostaneš.".
-vek = 20
-je_clen = False
-ma_pozvanku = True
-ma_zakaz = True
 
-
+vek = int(input("Zadej vek: "))
+clenstvi = input("Mas clenstvi? (ano/ne)")
+pozvanka = input("Mas pozvanku? (ano/ne")
+if vek >= 18 and clenstvi == "ano" or pozvanka == "ano":
+    print("Vitej v klubu")
+else:
+    print("Dnes se nedostaneš.") 

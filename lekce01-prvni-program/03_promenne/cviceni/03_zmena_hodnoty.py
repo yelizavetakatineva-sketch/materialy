@@ -3,4 +3,5 @@
 
 # Změň hodnotu proměnné jmeno na jiné jméno a vypiš ji znovu.
 
-
+jmeno = "Liza"
+print("Zmení jmeno", jmeno, "na jmeno Eliza")

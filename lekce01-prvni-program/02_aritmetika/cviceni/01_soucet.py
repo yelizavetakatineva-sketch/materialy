@@ -3,4 +3,5 @@
 
 # Vypiš, kolik je 7 + 15.
 
-
+print(7 + 15)
+print("Kolik je 7 + 15", "=", 7 + 15)

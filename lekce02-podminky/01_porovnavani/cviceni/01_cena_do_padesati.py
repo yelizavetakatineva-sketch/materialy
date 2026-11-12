@@ -3,6 +3,6 @@
 
 # Máš proměnnou cena. Vypiš True/False podle toho,
 #    jestli je cena menší nebo rovna 50.
-cena = 65
-
+cena = 50
+print(65<=50)
 

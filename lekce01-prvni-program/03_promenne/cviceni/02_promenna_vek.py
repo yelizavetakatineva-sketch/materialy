@@ -3,4 +3,5 @@
 
 # Vytvoř proměnnou vek a ulož do ní svůj věk. Pak ji vypiš.
 
-
+vek = 30
+print ("Je mi", vek)

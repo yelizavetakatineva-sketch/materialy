@@ -4,4 +4,6 @@
 # Napiš program, který se zeptá na jméno a na věk (převeď na číslo)
 #    a vypíše větu: Ahoj <jmeno>, za rok ti bude <věk + 1> let.
 
-
+jmeno = input("Jak se jmenuješ?")
+vek = int(input("Kolik je ti let?"))
+print("Ahoj", jmeno , "za rok ti bude", vek + 1 , "let")

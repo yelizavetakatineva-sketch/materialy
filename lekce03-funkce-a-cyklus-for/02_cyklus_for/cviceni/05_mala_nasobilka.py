@@ -5,3 +5,6 @@
 #    tedy cislo * 1 až cislo * 10, každý řádek třeba "7 * 3 = 21".
 
 
+cislo = int(input("Zadej cislo:"))
+for nasobek in range(1, 11):
+    print(cislo, "*", nasobek, "=", cislo * nasobek)
